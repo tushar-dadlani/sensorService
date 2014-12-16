@@ -1,0 +1,5 @@
+<select>
+    {% for key in terms%}
+    <option value={{ key }}> {{ terms[key] }} </option>
+    {% endfor %}
+</select>
